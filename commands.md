@@ -45,8 +45,13 @@ in which the optional fields appear is not significant.
 
 For Optional Field, can check [this](https://samtools.github.io/hts-specs/SAMtags.pdf)
  
+Note: Illumina collaped-BAM files ( Read collapsing adds the following BAM tags):
  
-BAM is compressed in the BGZF format.
+ 
+• RX/XU—UMI.
+• XV—Number of reads in the family.
+• XW—Number of reads in the duplex-family, or 0 if not a duplex family.
+
  
 ##### Understand BAM flags 
 
