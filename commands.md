@@ -49,7 +49,9 @@ Note: Illumina collaped-BAM files ( Read collapsing adds the following BAM tags)
  
  
 • RX/XU—UMI.
+ 
 • XV—Number of reads in the family.
+ 
 • XW—Number of reads in the duplex-family, or 0 if not a duplex family.
 
  
