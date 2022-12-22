@@ -38,11 +38,12 @@ SRR035022.2621862 163 16 59999 37 22S54M = 60102 179 CCAACCCAACCCTAACCCTAACCCTAA
 in which the optional fields appear is not significant.
  
  
- consensus_read_ATCTCGTTT_0_9990_0_10120_1	99	chr1	10001	8	10S113M8S	=	10003	113	TGAAGACGCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCAACCCCTCTGGAT	^^^^^^^^^^^^^^^^^^^^^^^F^^^^^^^^^^^^^^^^^^^^^^^S^S^^^^SS^^S^^^^^S^^^^^^^^^^^SS^^^^S^^F^^S^^^^^F^^^^^^^^S^^^F^S^^FF^S^^^^S^^^^S;S^^S	RG:Z:20220930_CH_Exp5-6-A_092322_NOVA-IDT-15-7_L2	AS:i:113	XS:i:100	NM:i:0	sd:f:0	RX:Z:ATCTCGTTT	XV:i:2	XW:i:0
+ consensus_read_ATCTCGTTT_0_9990_0_10120_1	99	chr1	10001	8	10S113M8S	=	10003	113	TGAAGACGCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCAACCCCTCTGGAT	^^^^^^^^^^^^^^^^^^^^^^^F^^^^^^^^^^^^^^^^^^^^^^^S^S^^^^SS^^S^^^^^S^^^^^^^^^^^SS^^^^S^^F^^S^^^^^F^^^^^^^^S^^^F^S^^FF^S^^^^S^^^^S;S^^S	RG:Z:20220930_sample	AS:i:113	XS:i:100	NM:i:0	sd:f:0	RX:Z:ATCTCGTTT	XV:i:2	XW:i:0
 
  
 ![image](https://user-images.githubusercontent.com/20830666/209197886-cb871e93-9923-4adf-a1b1-572ec8cc2ec5.png)
 
+For Optional Field, can check [this](https://samtools.github.io/hts-specs/SAMtags.pdf)
  
  
 BAM is compressed in the BGZF format.
