@@ -93,7 +93,8 @@ SAMtools provides various (sub)tools for manipulating alignments in the SAM/BAM 
  
  2. Convert SAM directly to sorted BAM : 
  
- ```samtools index test_sorted.bam test_sorted.bai
+ ```
+ samtools index test_sorted.bam test_sorted.bai
  ```
  
  
