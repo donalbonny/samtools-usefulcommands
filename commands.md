@@ -98,4 +98,22 @@ SAMtools provides various (sub)tools for manipulating alignments in the SAM/BAM 
  ```
  
  
+ 3. Filtering out unmapped reads in BAM files
+```
+ samtools view -h -F 4 blah.bam > blah_only_mapped.sam
+ ```
  
+ 4. Extract BAM entries mapping to specific loci
+ 
+```
+
+ samtools view test.bam chr1:200000-500000
+ ```
+ 
+#all reads mapping on chr1 as another bam
+ 
+ ```
+samtools view -b test.bam chr1 > test_chr1.bam
+ ```
+
+
