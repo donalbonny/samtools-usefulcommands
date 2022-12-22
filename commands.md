@@ -157,4 +157,9 @@ SAMtools provides various (sub)tools for manipulating alignments in the SAM/BAM 
 samtools view -b test.bam chr1 > test_chr1.bam
  ```
 
-
+5. Extract specific OPTIONAL TAG from BAM file: example XV tag to get the family size after UMI collapsing:
+ 
+ ```
+ samtools view  input.bam | cut -f 12- | tr "\t" "\n"  | grep  "^XV:"  | cut -d ':' -f 3 > family-size.txt 
+ 
+ ```
