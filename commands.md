@@ -71,6 +71,8 @@ For Optional Field, can check [this](https://samtools.github.io/hts-specs/SAMtag
  
 •	XN: Amplicon name tag, which records the amplicon tile ID associated with the read.
  
+• XQ: is added to each read to represent the number of bases that have quality scores below the BASE_QUALITY threshold. These reads are then removed from the BAM.
+
  
 ##### Understand BAM flags 
 
